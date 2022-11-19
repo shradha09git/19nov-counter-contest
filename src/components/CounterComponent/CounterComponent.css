@@ -1,0 +1,46 @@
+p {
+    font-size: 10rem;
+    color: rgb(231, 240, 241);
+    text-align: center;
+    margin-bottom: -1px;
+  }
+  
+  button {
+    padding: 1.2rem;
+    margin: 10px;
+    background-color: rgb(226, 139, 238);
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(255, 232, 232);
+    border: none  ;
+  }
+  
+  button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
+
+    button:active {
+        background-color: #60a3bc;
+        box-shadow: 0 5px #e4e4e4;
+        transform: translateY(4px);
+      }
+      
+  .buttons {
+    color: #fff ;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 15px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 6px #999}
